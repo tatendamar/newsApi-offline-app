@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>NewsStand</title>
+</head> 
+
+<body>
+  <div class="container">
+  <h1>NewsStand</h1>
+  <label for="country" id="country">Enter your country's 2 letter code</label>
+  <div class="row">
+  <form class="col s6">
+    <div class="input-field col s12">
+      <input placeholder="Enter your country's 2 letter code " id="country" type="text" class="validate">
+    </div>
+    <br><br>
+        <button class="waves-effect waves-light btn-small get-news">Search</button>
+  </form>
+  </div>
+  <br>
+    <ul class="news">
+    </ul>
+  </div>
+
+   <footer>
+    <small>&copy; Copyright 2018, Use of News API by Tatenda Marufu</small>
+   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="js/utility.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/app.js"></script>
+  
+</body>
+</html>

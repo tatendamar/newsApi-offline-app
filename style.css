@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  background: #333;
+
+}
+h1{
+  color: #fff;
+}
+
+.card .card-title{
+  color: blue;
+}
+#country{
+ padding-left: 15%;
+ color: #fff;
+}
+
+.get-news{
+  margin-top: 10%;
+}
+footer {
+  color: #fff;
+  margin-left: 30%;
+}
